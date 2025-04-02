@@ -1,0 +1,80 @@
+V "GNAT Lib v14"
+A -gnat2022
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U complex_numbers%b	complex_numbers.adb	437dbea2 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U complex_numbers%s	complex_numbers.ads	4f081b5b EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20250208104148 76789da1 ada%s
+D a-except.ads		20250208104148 e7970cd9 ada.exceptions%s
+D a-flteio.ads		20250208104148 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20250208104148 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250208104148 119b8fb3 ada.streams%s
+D a-string.ads		20250208104148 90ac6797 ada.strings%s
+D a-sttebu.ads		20250208104148 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250208104148 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250208104148 9eaa38c6 ada.tags%s
+D a-textio.ads		20250208104148 34ef47de ada.text_io%s
+D a-tiflio.ads		20250208104148 48a0360d ada.text_io.float_io%s
+D a-unccon.ads		20250208104148 0e9b276f ada.unchecked_conversion%s
+D complex_numbers.ads	20250402211206 4f081b5b complex_numbers%s
+D complex_numbers.adb	20250402211725 edffe259 complex_numbers%b
+D interfac.ads		20250208104148 9111f9c1 interfaces%s
+D i-cstrea.ads		20250208104148 ffd01b9d interfaces.c_streams%s
+D system.ads		20250208104148 14286b0f system%s
+D s-conca5.ads		20250208104148 4099d1db system.concat_5%s
+D s-crtl.ads		20250208104148 beb39b9e system.crtl%s
+D s-exctab.ads		20250208104148 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250208104148 dc5161d4 system.file_control_block%s
+D s-imager.ads		20250208104148 45c7157d system.image_r%s
+D s-imageu.ads		20250208104148 b0b50650 system.image_u%s
+D s-imgflt.ads		20250208104148 d12816b5 system.img_flt%s
+D s-imguns.ads		20250208104148 c4e23690 system.img_uns%s
+D s-parame.ads		20250208104148 3597fc11 system.parameters%s
+D s-powflt.ads		20250208104148 a51ab9b8 system.powten_flt%s
+D s-putima.ads		20250208104148 17291fe4 system.put_images%s
+D s-secsta.ads		20250208104148 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250208104148 df77073e system.soft_links%s
+D s-stache.ads		20250208104148 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250208104148 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250208104148 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250208104148 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250208104148 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250208104148 b0fcd073 system.val_spec%s
+D s-vauspe.ads		20250208104148 89269ba5 system.value_u_spec%s
+D s-vs_uns.ads		20250208104148 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20250208104148 d9032363 system.wch_con%s
+G a e
+G c Z s b [image complex_numbers 7 12 none]
+G c Z s b [complex_add complex_numbers 10 12 none]
+G c Z s s [complexIP complex_numbers 3 8 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 14|1w10 2r9
+X 13 complex_numbers.ads
+1K9*Complex_Numbers 13l5 13e20 14|4b14 25l5 25t20
+3R8*Complex 5e14 7r23 10r29 10r42 11r13 14|7r23 13r12 16r10 16r23 16r39
+4f5*Real{float} 14|9r33 19m12 19r22 19r31
+4f11*Imag{float} 14|9r64 20m12 20r22 20r31
+7V12*Image{string} 7>19 14|7b12 10l7 10t12
+7r19 C{3R8} 14|7b19 9r31 9r62
+10V12*Complex_Add{3R8} 10>25 10>38 14|15b12 23l7 23t18
+10r25 A{3R8} 14|16b6 19r20 20r20
+10r38 B{3R8} 14|16b19 19r29 20r29
+X 14 complex_numbers.adb
+13r3 Result{13|3R8} 19m5 20m5 22r12
+
